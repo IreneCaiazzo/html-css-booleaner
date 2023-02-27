@@ -1,8 +1,18 @@
-.logo{
+header{
     background-image: url('../img/pattern.png');
     background-repeat: repeat;
     height: 100px;
-    width: 100%;
+    width: 100vh;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    width: 120px;
+}
+
+.highlight{
+    background-color: yellow;
 }
 
 /* 
@@ -12,8 +22,14 @@
 
 #table-header{
     width: 100%;
+    background-color: blue;
 }
 
-th td{
+td{
     width: calc(100% / 3);
+    height: 20px;
+}
+
+.background-lightblue{
+    background-color: lightblue;
 }
