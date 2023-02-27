@@ -1,0 +1,19 @@
+.logo{
+    background-image: url('../img/pattern.png');
+    background-repeat: repeat;
+    height: 100px;
+    width: 100%;
+}
+
+/* 
+:picture-in-picture{
+
+} */
+
+#table-header{
+    width: 100%;
+}
+
+th td{
+    width: calc(100% / 3);
+}
