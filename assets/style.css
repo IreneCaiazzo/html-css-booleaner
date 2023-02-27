@@ -13,14 +13,21 @@ header{
     width: 150px;
 }
 
+a{
+    text-decoration: none;
+}
+
+.color-grey{
+    color: grey;
+}
+
+img{
+    margin-top: 20px;
+}
+
 .highlight{
     background-color: yellow;
 }
-
-/* 
-:picture-in-picture{
-
-} */
 
 #table-header{
     width: 100%;
@@ -34,4 +41,20 @@ td{
 
 .background-lightblue{
     background-color: lightblue;
+}
+
+#image1{
+    position: relative;
+}
+
+#image2{
+    position: relative;
+}
+
+.in-picture-link{
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    color: white;
+    font-size: 20px;
 }
